@@ -46,16 +46,20 @@
         </fieldset>
 
         <fieldset>
-            <label>Interesses:</label> 
+            <legend>Interesses:</legend>
+            <label>Esportes</label> 
            <input type="checkbox" id="tecnologia" name="interesses" value="tecnologia" required>
            <label for="tecnologia">Tecnologia</label>
            
            <input type="checkbox" id="esportes" name="interesses" value="esportes" required>
-           <label for="esportes">Esportes</label>
+           <label for="esportes">Moda</label>
            
-           <input type="checkbox" id="moda" name="interesses" value="moda" required>
-           <label for="moda">Moda</label>
-
+           <input type="checkbox" id="esportes" name="interesses" value="esportes" required>
+           <label for="esportes"></label>
+           
+        </fieldset>
+      
+        <fieldset>
      <label for="cidade">Cidade:</label>
         <select name="cidade" id="cidade" required>
             <option value="sao-paulo">São Paulo</option>
@@ -64,10 +68,12 @@
             <option value="brasilia">Brasília</option>
             <option value="salvador">Salvador</option>
         </select>
+        </fieldset>
 
+    <fieldset>
         <label for="descricao">Descrição</label>
         <textarea id="descricao" name="descricao" rows="5" placeholder="Deixe sua mensagem!" required></textarea>
-     </fieldset>
+    </fieldset>
 
      <fieldset>
         <legend>Envio de Arquivo</legend>
